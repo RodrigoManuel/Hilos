@@ -19,6 +19,8 @@ public class ClaseHilo2 extends Thread {
             System.out.println("Duerme");
             sleep(10000);
         }
+        //Cuando un hilo es interrumpido mientras está en espera, duerme u ocupado.
+        //Algún código llama al método interrupt()
         catch(InterruptedException er) {
             System.out.println("Excepcion " + er);
         }

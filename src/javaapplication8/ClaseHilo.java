@@ -17,6 +17,8 @@ public class ClaseHilo implements Runnable {
         try {
             Thread.sleep(10000);
         }
+        //Cuando un hilo es interrumpido mientras está en espera, duerme u ocupado.
+        //Algún código llama al método interrupt()
         catch(InterruptedException er) {
             System.out.println("Excepcion " + er);
         }

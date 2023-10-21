@@ -1,4 +1,4 @@
-package javahilos;
+package javaapplication8;
 
 /**
  *
@@ -6,12 +6,14 @@ package javahilos;
  */
 public class JavaHilos extends Thread {
  String nombreCorredor;
- public JavaHilos (int prioridad,String nombre){
+ 
+public JavaHilos (int prioridad,String nombre){
     this.nombreCorredor = nombre;
     setPriority(prioridad);
 }
+
  public void run(){
-    for(int c=1;c<=5;c++){
+    for(int c=1;c<=30000;c++){
         System.out.println(c + "a. vuelta -" + nombreCorredor + "/");
         yield(); 
     }
