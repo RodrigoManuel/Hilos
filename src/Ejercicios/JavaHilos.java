@@ -1,4 +1,4 @@
-package javahilos;
+package Ejercicios;
 
 /**
  *
