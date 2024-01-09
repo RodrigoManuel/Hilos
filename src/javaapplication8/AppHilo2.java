@@ -17,7 +17,7 @@ public class AppHilo2 {
         ClaseHilo2 h1, h2;
         h1 = new ClaseHilo2 ("Primer hilo");
         h2 = new ClaseHilo2 ("Segundo hilo");
-        //se pone en marca la ejecución de los dos hilos
+        //se pone en marcha la ejecución de los dos hilos
         h1.start();
         h2.start();
     }

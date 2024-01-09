@@ -11,7 +11,7 @@ public class JavaHilos extends Thread {
     setPriority(prioridad);
 }
  public void run(){
-    for(int c=1;c<=5;c++){
+    for(int c=1;c<=30;c++){
         System.out.println(c + "a. vuelta -" + nombreCorredor + "/");
         yield(); 
     }
